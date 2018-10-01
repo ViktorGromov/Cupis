@@ -1,0 +1,46 @@
+/******************************************************************
+Theme Name: Charis Church
+Theme URI: www.chapelworks-church-themes.com
+Description: The ChapelWorks Charis Church Theme (Basic Edition) is designed for churches that need a low cost basic responsive WordPress website solution that’s easy to install, set up and maintain. It is a responsive design that displays properly on smart phones, tablets, laptops and desktop computers. Features include: Church location (automatic Google map) and Service times. The ChapelWorks Basic Church Plugin adds additional church website functions and is available here: http://wordpress.org/plugins/chapelworks-church-basic-features/.  Installation and setup documentation can be found here: http://chapelworks-church-themes.com/basic-theme-installation-and-setup/.  A demo of this theme with the plugin can be found here: http://structurworks.com/charis-free-edition/. 
+Author: Kevin Gibson - kevin@structurworks.com
+Version: 1.0.9
+Tags:  custom-background, custom-header, featured-images, flexible-header, gray, blue, tan, white, responsive-layout, right-sidebar, left-sidebar, sticky-post, theme-options, translation-ready, two-columns, microformats
+License: GPLv2
+License URI: http://www.gnu.org/licenses/gpl-2.0-standalone.html
+Text Domain: charistheme
+Domain Path: /languages
+
+
+IMPORTANT INFORMATION  ABOUT  STYLING THIS THEME
+------------------------------------------------------------------
+
+The Charis Church theme CSS was generated using a SASS V3+ (SCSS - Sassy CSS syntax) 
+CSS preprocessor.  SCSS is a superset of CSS3 syntax. A CSS3 stylesheet is valid SCSS as well. 
+SCSS files use the extension .scss. The source files are in the library/scss folder 
+(styles are mainly in _base.scss). Using SASS/SCSS variables will help with tasks 
+like defining a new color scheme. 
+
+If you prefer using regular CSS (CSS files are in the css folder), then go ahead and modify the CSS files. In either 
+case, we suggest you use a child theme (please see the child theme instructions in the readme.txt file). 
+
+If you decide to use SASS/SCSS at a later date, please be aware that a SASS preprocessor 
+will generate new .css files, so be sure to back up any .css files you changed before running the preprocessor.
+
+If you need an intro to SASS/SCSS, here are a few references:
+http://www.sitepoint.com/sass-for-wordpress-developers/
+http://cognition.happycog.com/article/preprocess-this
+http://coding.smashingmagazine.com/2011/09/09/an-introduction-to-less-and-comparison-to-sass/
+http://thesassway.com/editorial/sass-vs-scss-which-syntax-is-better
+http://sass-lang.com/
+
+Tools:
+Compass.app: (Windows / Mac / Linux Users)
+http://compass.handlino.com/
+
+
+
+
+---------------------------------------------------------------------------------------------------
+Copyright (c) StructurWorks LLC 2014  Some Rights Reserved.
+**********************************************************************************/
+

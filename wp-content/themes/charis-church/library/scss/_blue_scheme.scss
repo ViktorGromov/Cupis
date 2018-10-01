@@ -1,0 +1,112 @@
+
+$colors-blue-black: #000000;
+$colors-blue-darkgrey: #67727A;
+$colors-blue-verydarkgrey: darken($colors-blue-darkgrey, 20%);
+$colors-blue-mediumgrey: lighten($colors-blue-darkgrey, 20%);
+$colors-blue-lightgrey: #F5F5F5;
+$colors-blue-darkblue:  #003366; //#3F617F;     
+$colors-blue-verydarkblue: darken($colors-blue-darkblue, 15%);
+$colors-blue-blue: #ACD1E9;
+$colors-blue-lightblue: #EAF4FD; 
+$colors-blue-verylightblue: #F5FAFA;
+$colors-blue-white: #FFFFFF;
+$colors-blue-lightpink: LightPink;
+$colors-blue-pink: Pink;
+
+$colors-blue-taupe: #B7AFA3;
+$colors-blue-beige: #E8D0A9;
+$colors-blue-darktaupe: darken($colors-blue-taupe, 30%);
+$colors-blue-lighttaupe: lighten($colors-blue-taupe, 10%);
+$colors-blue-linkhovertaupe: lighten($colors-blue-taupe, 10%);
+$colors-blue-linkhovertaupeb: lighten($colors-blue-taupe, 5%);
+$colors-blue-linkhoverdarkblue: lighten($colors-blue-darkblue, 5%);
+
+/* Color Scheme Semantics */
+$colors-container-background: $colors-blue-lightblue;
+$colors-container-text: $colors-blue-black;
+$colors-header-background: $colors-blue-darkblue;
+$colors-header-text: $colors-blue-lightgrey;
+$colors-footer-background: $colors-blue-darkblue;
+$colors-footer-text: $colors-blue-lightgrey;
+
+$colors-front-page-greeting:  $colors-blue-lightblue;
+
+$colors-main-nav-background: $colors-blue-darkgrey;
+$colors-main-nav-text: $colors-blue-white;
+
+$colors-text-logo-text: $colors-blue-verylightblue;
+
+
+
+$colors-link-color: $colors-blue-taupe;
+$colors-link-hover: $colors-blue-linkhovertaupe;
+
+$colors-form-title-background: $colors-blue-lightblue;
+$colors-form-title-text: $colors-blue-darkblue;
+
+$colors-custom-category-title: $colors-blue-darkblue;
+$colors-custom-category-text: $colors-blue-verydarkgrey;
+$colors-custom-category-background: $colors-blue-lightblue;
+
+
+$colors-menu1-background: $colors-blue-darkblue;
+$colors-menu1-background-hover: $colors-blue-darkblue;
+$colors-menu1-boarder: $colors-blue-darkblue;
+$colors-menu1-text: $colors-blue-verylightblue;
+$colors-menu1-text-hover: $colors-blue-linkhovertaupe;
+$colors-menu1-current-menu-item-text: $colors-blue-lighttaupe;
+$colors-menu1-sub-background: $colors-blue-darkblue;
+$colors-menu1-sub-boarder: $colors-blue-lightblue;
+$colors-menu1-sub-text: $colors-blue-verylightblue;
+$colors-menu1-sub-text-hover: $colors-blue-linkhovertaupe;
+
+$colors-menu2-background: $colors-blue-lightblue;
+$colors-menu2-background-hover: $colors-blue-linkhoverdarkblue;
+$colors-menu2-boarder: $colors-blue-darkblue;
+$colors-menu2-text: $colors-blue-darkblue;
+$colors-menu2-text-hover: $colors-blue-lightgrey;
+$colors-menu2-current-menu-item-text: $colors-blue-darktaupe;
+$colors-menu2-sub-background: $colors-blue-darkblue;
+$colors-menu2-sub-background-hover: $colors-blue-linkhoverdarkblue;
+$colors-menu2-sub-boarder: $colors-blue-lightblue;
+$colors-menu2-sub-text: $colors-blue-verylightblue;
+
+$colors-article-title-text: $colors-blue-verydarkblue;
+$colors-article-footer-border-bottom: $colors-blue-darkblue;
+$colors-article-byline-text: $colors-blue-darkblue;
+
+$colors-entry-blockquote-text: $colors-blue-darkgrey;
+$colors-entry-preformatted-text: $colors-blue-darkgrey;
+$colors-entry-preformatted-background: $colors-blue-lightblue;
+
+$colors-caption-background: $colors-blue-lightgrey;
+$colors-comment-even-background: $colors-blue-lightblue;
+$colors-comment-odd-background: $colors-blue-lightgrey;
+
+$colors-vcard-link-text: $colors-blue-darkgrey;
+$colors-vcard-avatar-boarder: $colors-blue-darkblue;
+$colors-vcard-avatar-background: $colors-blue-lightgrey;
+
+$colors-comment-reply-link-background: $colors-blue-lightgrey;
+$colors-comment-reply-text: $colors-blue-darkgrey;
+
+$colors-respond-form-textarea-background: $colors-blue-lightblue;
+$colors-respond-form-textarea-focus-background: $colors-blue-lightgrey;
+$colors-respond-form-textarea-boarder: $colors-blue-darkblue;
+$colors-respond-form-textarea-invalid-boarder: $colors-blue-pink;
+$colors-respond-form-textarea-invalid-background: $colors-blue-lightpink;
+
+$colors-event-date-text: $colors-blue-darkblue;
+$colors-event-time-text: $colors-blue-darkblue;
+$colors-event-footer: $colors-blue-darkblue;
+
+$colors-sermon-icons: $colors-blue-darkblue;
+$colors-social-media-icons: $colors-blue-lightblue;
+$colors-sermon-icons-hover: $colors-blue-blue;
+$colors-social-media-icons-hover: $colors-blue-blue;
+
+$colors-giving-button-background: $colors-blue-lightblue;
+$colors-giving-button-background-hover: $colors-blue-lightblue;
+$colors-giving-button-text: black;
+$colors-giving-button-text-hover: dimgrey;
+$colors-giving-button-border: black;

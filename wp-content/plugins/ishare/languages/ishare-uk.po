@@ -1,0 +1,150 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iShare\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Tue Jan 19 2016 12:06:36 GMT+0300\n"
+"PO-Revision-Date: Fri Feb 05 2016 13:42:30 GMT+0300\n"
+"Last-Translator: test <share@itraffic.su>\n"
+"Language-Team: \n"
+"Language: Ukrainian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: uk_UA\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "iShare"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://share.itraffic.su/plugins"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"iShare - social share buttons plugin. Add Vkontakte, OK, Facebook, Twitter, "
+"Google+, etc share buttons."
+msgstr ""
+
+#. Author of the plugin
+msgid "ishare"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://share.itraffic.su"
+msgstr ""
+
+#: ../settings.php:5
+msgid "iShare - settings"
+msgstr "iShare - настройки"
+
+#: ../settings.php:40
+msgid ""
+"Settings have been saved. Buttons social networks are displayed when viewing "
+"the post."
+msgstr ""
+"Налаштування збережені. Кнопки поділитися соціальних мереж будуть "
+"відображатися після вмісту поста при його одиночному перегляді."
+
+#: ../settings.php:49
+msgid "News"
+msgstr "Новини"
+
+#: ../settings.php:50
+msgid "Donate"
+msgstr "Допомогти проекту"
+
+#: ../settings.php:64
+msgid "Insert position"
+msgstr "Місцезнаходження"
+
+#: ../settings.php:66
+msgid "bottom"
+msgstr "знизу"
+
+#: ../settings.php:67
+msgid "top"
+msgstr "зверху"
+
+#: ../settings.php:68
+msgid "both"
+msgstr "зверху і знизу"
+
+#: ../settings.php:73
+msgid "Insert mode"
+msgstr "Режим вставки"
+
+#: ../settings.php:75
+msgid "auto mode"
+msgstr "автоматично"
+
+#: ../settings.php:76
+msgid "via shortcode"
+msgstr "через шорткод"
+
+#: ../settings.php:83
+msgid "On single"
+msgstr "В записах"
+
+#: ../settings.php:88
+msgid "On page"
+msgstr "На статичних сторінках"
+
+#: ../settings.php:93
+msgid "On archive (category pages, labels, authors and pages of archives by date)"
+msgstr "В архівах (сторінки категорій, міток, авторів і сторінки архівів по датах)"
+
+#: ../settings.php:98
+msgid "On main"
+msgstr "На головній"
+
+#: ../settings.php:105
+msgid "To add shortcode in the .php file is a template design"
+msgstr "Щоб додати шорткод в .php файл шаблону використовуйте конструкцію"
+
+#: ../settings.php:106
+msgid "To insert in the visual editor"
+msgstr "Для вставки в візуальному редакторі"
+
+#: ../settings.php:112
+msgid "Save"
+msgstr "Зберегти"
+
+#: ../settings.php:118
+msgid "For all the proposals on the bugs"
+msgstr "По всіх пропозиціях, поміченим помилками питань"
+
+#: ../settings.php:118
+msgid "write us"
+msgstr "пишіть нам"
+
+#: ../settings.php:118
+msgid "leave comments"
+msgstr "залишайте коментарі"
+
+#: ../settings.php:126
+msgid ""
+"Friends! The plugin is available for free, we constantly develop and improve "
+"it."
+msgstr ""
+"Друзі! Плагін надається безкоштовно, ми постійно розвиваємося і поліпшити "
+"його."
+
+#: ../settings.php:129
+msgid "Give us your feedback"
+msgstr "Залиште свій відгук"
+
+#: ../settings.php:130
+msgid " - our project young and we really value your opinion!"
+msgstr "наш проект молодий і нам дуже важлива Ваша думка!"

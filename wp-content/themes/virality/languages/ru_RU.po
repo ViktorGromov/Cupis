@@ -1,0 +1,968 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Virality v10.0.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-06-05 17:00+0200\n"
+"Last-Translator: Игорь <dybabiz@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.2\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ virality
+#: 404.php:9
+msgid "Error 404 - Page Not Found"
+msgstr "Ошибка 404. Страница не найдена"
+
+# @ virality
+#: 404.php:13
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr "По данному адресу ничего не найдено. Воспользуйтесь поиском."
+
+# @ virality
+#: 404.php:19 search.php:61
+msgid "Most Used Categories"
+msgstr "Популярная категория"
+
+# @ virality
+#. translators: %1$s: smilie
+#. translators: %1$s: smilie
+#: 404.php:27 search.php:69
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Попробуйте посмотреть в ежемесячных архивах. %1$s"
+
+# @ virality
+#: archive.php:13
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "День: %s"
+
+# @ virality
+#: archive.php:15
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Месяц: %s"
+
+# @ virality
+#: archive.php:17
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Год: %s"
+
+# @ virality
+#: archive.php:19 functions.php:417
+msgid "Archives"
+msgstr "Архивы"
+
+# @ virality
+#: archive.php:60 author.php:63 category.php:53 index.php:41 search.php:49
+#: tag.php:56
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+# @ virality
+#: archive.php:64 author.php:67 category.php:57 index.php:45 tag.php:60
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Кажется, мы не можем найти то, что вы ищете. Возможно, поиск может помочь."
+
+# @ virality
+#: author.php:20
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Автор: %s"
+
+# @ virality
+#: category.php:11
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Категория: %s"
+
+# @ virality
+#: comments.php:9
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "Пожалуйста, введите пароль для просмотра комментариев."
+
+# @ virality
+#: comments.php:26
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "Комментарий"
+msgstr[1] "Комментарии"
+
+# @ virality
+#: comments.php:41
+msgid "Comment navigation"
+msgstr "Комментарий навигация"
+
+# @ virality
+#: comments.php:42
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+# @ virality
+#: comments.php:43
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+# @ virality
+#: comments.php:53
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+# @ virality
+#: content-aside.php:9 content-link.php:13 content-quote.php:9
+#: content-status.php:9
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Подробнее <span class=\"meta-nav\">&rarr;</span>"
+
+# @ virality
+#: content-aside.php:10 content-link.php:14 content-page.php:9
+#: content-quote.php:10 content-single.php:15 content-status.php:10
+#: image.php:85
+msgid "Pages:"
+msgstr "Страницы:"
+
+# @ virality
+#: content-gallery.php:46 content-gallery.php:48 content-image.php:18
+#: content-link.php:9 content-video.php:13 content.php:19
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+# @ virality
+#: content-page.php:11 image.php:26 image.php:107
+msgid "Edit"
+msgstr "Редактировать"
+
+# @ virality
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:22
+msgid ", "
+msgstr ""
+
+# @ virality
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:30
+#, php-format
+msgid "tagged %2$s"
+msgstr "метки %2$s"
+
+# @ virality
+#: content-single.php:36
+#, php-format
+msgid "Posted in %1$s / tagged %2$s"
+msgstr "Категория: %1$s / Метки: %2$s"
+
+# @ virality
+#: content-single.php:38
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Категория: %1$s"
+
+# @ virality
+#: content-single.php:66 functions.php:605
+#, php-format
+msgid "View all posts by %s"
+msgstr "Просмотр всех записей %s"
+
+# @ virality
+#: content-single.php:73
+msgid "Website: "
+msgstr "Сайт: "
+
+# @ virality
+#: footer.php:16
+msgid "&copy; "
+msgstr ""
+
+# @ virality
+#: footer.php:18
+msgid "- Powered by "
+msgstr ""
+
+# @ virality
+#: footer.php:18
+msgid "http://wordpress.org/"
+msgstr ""
+
+# @ virality
+#: footer.php:18
+msgid "Semantic Personal Publishing Platform"
+msgstr ""
+
+# @ virality
+#: footer.php:18
+msgid "WordPress"
+msgstr ""
+
+# @ virality
+#: footer.php:19
+msgid " and "
+msgstr ""
+
+# @ virality
+#: footer.php:19
+msgid "http://wpdevshed.com/"
+msgstr ""
+
+# @ virality
+#: footer.php:19
+msgid "WP Dev Shed"
+msgstr ""
+
+# @ virality
+#: functions.php:33
+msgid "Header Menu"
+msgstr "Меню в шапке"
+
+# @ virality
+#: functions.php:34
+msgid "Footer Menu"
+msgstr "Меню в подвале"
+
+# @ virality
+#: functions.php:100
+msgid "Header Background Color"
+msgstr "Цвет фона заголовка"
+
+# @ virality
+#: functions.php:109
+msgid "Site Logo"
+msgstr "Логотип сайта"
+
+# @ virality
+#: functions.php:111
+msgid "Upload a logo to replace the default site name in the header"
+msgstr "Загрузите логотип, это заменить текстовый"
+
+# @ virality
+#: functions.php:119
+msgid ""
+"Choose your logo (ideal width is 100-300px and ideal height is 40-100px)"
+msgstr ""
+"Выберите свой логотип (идеально ширина 100-300px и идеальная высота "
+"составляет 40-100px)"
+
+# @ virality
+#: functions.php:131
+msgid "Site Title Text Color"
+msgstr "Название сайта Цвет текста"
+
+# @ virality
+#: functions.php:144
+msgid "Grid Box Border Color"
+msgstr "Цвет рамок"
+
+# @ virality
+#: functions.php:157
+msgid "Post, Page &amp; Section Titles"
+msgstr "Заголовок записей"
+
+# @ virality
+#: functions.php:170
+msgid "Body Text Color"
+msgstr "Цвет текста чтения"
+
+# @ virality
+#: functions.php:183
+msgid "Links Color"
+msgstr "Ссылки Цвет"
+
+# @ virality
+#: functions.php:196
+msgid "Widget Links Color"
+msgstr "Виджет Ссылки Цвет"
+
+# @ virality
+#: functions.php:210
+msgid "Footer and Nav BG Color"
+msgstr ""
+
+# @ virality
+#: functions.php:219
+msgid "Disable header nav menu"
+msgstr "Верхнее меню"
+
+# @ virality
+#: functions.php:221
+msgid "Option to show/hide the navigation menu on header."
+msgstr "Навигация в верху"
+
+# @ virality
+#: functions.php:230
+msgid "Disable header nav menu?"
+msgstr "Отключить верхнее меню?"
+
+# @ virality
+#: functions.php:237
+msgid "Enable post meta data"
+msgstr ""
+
+# @ virality
+#: functions.php:239
+msgid "Option to show/hide the meta data in the posts."
+msgstr ""
+
+# @ virality
+#: functions.php:248
+msgid "Enable meta data?"
+msgstr ""
+
+# @ virality
+#: functions.php:256
+msgid "Disable Author Bio"
+msgstr ""
+
+# @ virality
+#: functions.php:258
+msgid "Option to show/hide the author bio in the posts."
+msgstr "Информация об авторе в записях."
+
+# @ virality
+#: functions.php:267
+msgid "Disable author bio in posts?"
+msgstr "Отключить инфу от авторе?"
+
+# @ virality
+#: functions.php:300
+msgid "#FFFFFF"
+msgstr ""
+
+# @ virality
+#: functions.php:310 functions.php:343 functions.php:353 functions.php:363
+msgid "#316272"
+msgstr ""
+
+# @ virality
+#: functions.php:319
+msgid "#c8cab4"
+msgstr ""
+
+# @ virality
+#: functions.php:333
+msgid "#222222"
+msgstr ""
+
+# @ virality
+#: functions.php:377
+msgid "#ec5f14"
+msgstr ""
+
+# @ virality
+#: functions.php:414
+msgid "Category"
+msgstr "Категория"
+
+# @ virality
+#: functions.php:415
+msgid "Tag"
+msgstr "Метка"
+
+# @ virality
+#: functions.php:416
+msgid "Author"
+msgstr "Автор"
+
+# @ virality
+#: functions.php:422 functions.php:426
+msgid "Page "
+msgstr "Страница"
+
+# @ virality
+#: functions.php:497
+msgid "Sidebar Right"
+msgstr "Правая боковая колонка"
+
+# @ virality
+#: functions.php:516
+msgid "Post navigation"
+msgstr "Страница навигация"
+
+# @ virality
+#: functions.php:520
+msgctxt "Previous post link"
+msgid "&larr; Previous"
+msgstr "&larr; Предыдущее"
+
+# @ virality
+#: functions.php:521
+msgctxt "Next post link"
+msgid "Next &rarr;"
+msgstr "Следующее &rarr;"
+
+# @ virality
+#: functions.php:526
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие записи"
+
+# @ virality
+#: functions.php:530
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Следующие записи <span class=\"meta-nav\">&rarr;</span>"
+
+# @ virality
+#: functions.php:552
+msgid "Pingback:"
+msgstr ""
+
+# @ virality
+#: functions.php:552 functions.php:571
+msgid "(Edit)"
+msgstr "(Редактировать)"
+
+# @ virality
+#: functions.php:562
+#, php-format
+msgid "%s"
+msgstr ""
+
+# @ virality
+#. translators: 1: date, 2: time
+#: functions.php:569
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+# @ virality
+#: functions.php:578
+msgid "Your comment is awaiting moderation."
+msgstr "Спасибо! Ваш комментарий ожидает проверки."
+
+# @ virality
+#: functions.php:599
+#, php-format
+msgid ""
+"<span class=\"sep\">on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark"
+"\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class="
+"\"byline\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a "
+"class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></"
+"span></span>"
+msgstr ""
+"<span class=\"sep\"> </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark"
+"\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class="
+"\"byline\"> <span class=\"sep\"> - </span> <span class=\"author vcard\"><a "
+"class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></"
+"span></span>"
+
+# @ virality
+#: functions.php:702 functions.php:748 sidebar.php:13
+msgid "Recent Posts"
+msgstr "Последнее"
+
+# @ virality
+#: functions.php:706
+msgid "Title:"
+msgstr "Заголовок:"
+
+# @ virality
+#: functions.php:709
+msgid "This widget will display the Recent Posts with thumbnails."
+msgstr "Этот виджет будет отображать Последние сообщения с миниатюрами."
+
+# @ virality
+#: functions.php:712
+msgid "Number of posts: "
+msgstr "Количество записей:"
+
+# @ virality
+#: functions.php:759 functions.php:815 sidebar.php:21
+msgid "Untitled"
+msgstr "Без названия"
+
+# @ virality
+#: functions.php:799
+msgid "&lsaquo; Prev"
+msgstr "&lsaquo; Назад"
+
+# @ virality
+#: functions.php:800
+msgid "Next &rsaquo;"
+msgstr "Вперед &rsaquo;"
+
+# @ virality
+#: functions.php:924
+msgid "Install Recommended Plugins"
+msgstr ""
+
+# @ virality
+#: functions.php:925 library/class/class-tgm-plugin-activation.php:162
+msgid "Install Plugins"
+msgstr ""
+
+# @ virality
+#: functions.php:926 library/class/class-tgm-plugin-activation.php:163
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+# @ virality
+#: functions.php:927
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+# @ virality
+#: functions.php:928 library/class/class-tgm-plugin-activation.php:165
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ virality
+#: functions.php:929 library/class/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ virality
+#: functions.php:930 library/class/class-tgm-plugin-activation.php:167
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ virality
+#: functions.php:931 library/class/class-tgm-plugin-activation.php:168
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ virality
+#: functions.php:932 library/class/class-tgm-plugin-activation.php:169
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ virality
+#: functions.php:933 library/class/class-tgm-plugin-activation.php:170
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ virality
+#: functions.php:934 library/class/class-tgm-plugin-activation.php:171
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ virality
+#: functions.php:935 library/class/class-tgm-plugin-activation.php:172
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ virality
+#: functions.php:936 library/class/class-tgm-plugin-activation.php:173
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ virality
+#: functions.php:937 library/class/class-tgm-plugin-activation.php:174
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ virality
+#: functions.php:938 library/class/class-tgm-plugin-activation.php:175
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+# @ virality
+#: functions.php:939 library/class/class-tgm-plugin-activation.php:177
+#: library/class/class-tgm-plugin-activation.php:1945
+msgid "Plugin activated successfully."
+msgstr ""
+
+# @ virality
+#: functions.php:940
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+# @ virality
+#: header.php:41
+msgid "Main menu"
+msgstr "Главное меню"
+
+# @ virality
+#: header.php:42
+msgid "Skip to content"
+msgstr "Наверх"
+
+# @ virality
+#: image.php:16
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s"
+"\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">"
+"%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel="
+"\"gallery\">%7$s</a>"
+msgstr ""
+"Опубликовано <span class=\"entry-date\"><abbr class=\"published\" title="
+"\"%1$s\">%2$s</abbr></span> - <a href=\"%3$s\" title=\"Link to full-size "
+"image\">%4$s &times; %5$s</a> -<a href=\"%6$s\" title=\"Return to %7$s\" rel="
+"\"gallery\">%7$s</a>"
+
+# @ virality
+#: image.php:30
+msgid "&larr; Previous"
+msgstr "&larr; Назад"
+
+# @ virality
+#: image.php:31
+msgid "Next &rarr;"
+msgstr "Вперед &rarr;"
+
+# @ virality
+#: image.php:37 image.php:91
+msgid "Share on Facebook"
+msgstr ""
+
+# @ virality
+#: image.php:38 image.php:92
+msgid "Share on Twitter"
+msgstr ""
+
+# @ virality
+#: image.php:99
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+# @ virality
+#: image.php:101
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+
+# @ virality
+#: image.php:103
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+# @ virality
+#: image.php:105
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:161
+msgid "Install Required Plugins"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:534
+#: library/class/class-tgm-plugin-activation.php:2162
+msgid "Return to the Dashboard"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1169
+msgid "Private Repository"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1172
+msgid "Pre-Packaged"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1177
+msgid "WordPress Repository"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1180
+msgid "Required"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1180
+msgid "Recommended"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1183
+msgid "Not Installed"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1185
+msgid "Installed But Not Activated"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1290
+#: library/class/class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1312
+#: library/class/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1380
+msgid "Status"
+msgstr ""
+
+# @ virality
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: library/class/class-tgm-plugin-activation.php:1636
+#: library/class/class-tgm-plugin-activation.php:178
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1928
+msgid "Install package not available."
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1929
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1930
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1931
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1932
+msgid "Plugin install failed."
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1933
+msgid "Plugin installed successfully."
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:1944
+msgid "Plugin activation failed."
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:2058
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:2059
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:2059
+#: library/class/class-tgm-plugin-activation.php:2068
+msgid "Show Details"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:2059
+#: library/class/class-tgm-plugin-activation.php:2068
+msgid "Hide Details"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:2060
+msgid "All installations and activations have been completed."
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:2061
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:2065
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:2066
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:2068
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:2069
+msgid "All installations have been completed."
+msgstr ""
+
+# @ virality
+#: library/class/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ virality
+#: search.php:14
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результат поиска для: %s"
+
+# @ virality
+#: search.php:53
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "К сожалению, по вашему запросу ничего не найдено."
+
+# @ virality
+#: search.php:56
+msgid "Or you can try these links below."
+msgstr "Или вы можете воспользоваться этими ссылками ниже."
+
+# @ virality
+#: tag.php:11
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Метки: %s"

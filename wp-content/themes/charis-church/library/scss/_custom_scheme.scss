@@ -1,0 +1,106 @@
+
+$colors-white-black: #000000;
+$colors-white-white: #FFFFFF;
+$colors-white-medium:  darken($colors-white-white, 15%);
+
+$colors-white-verylightgrey: #F0F0EE;
+$colors-white-lightgrey: #8899AA;
+$colors-white-mediumgrey: #3D484C;
+$colors-white-darkgrey: #2B2B2B;
+
+$colors-white-blue: #116688; 
+
+
+$colors-white-lightpink: LightPink;
+$colors-white-pink: Pink;
+
+
+$colors-white-linkhoverblack: lighten($colors-white-black, 15%);
+
+/* Color Scheme - semantics */
+$colors-container-background: $colors-white-white;
+$colors-container-text: $colors-white-black;
+$colors-header-background: $colors-white-white;
+$colors-header-text: $colors-white-black;
+$colors-footer-background: $colors-white-blue;
+$colors-footer-text: $colors-white-white;
+
+$colors-front-page-greeting:  $colors-white-verylightgrey;
+
+$colors-main-nav-background: $colors-white-medium;
+$colors-main-nav-text: $colors-white-black;
+
+$colors-link-color: $colors-white-blue;
+$colors-link-hover: lighten($colors-link-color, 10%);
+
+$colors-form-title-background: $colors-white-white;
+$colors-form-title-text: $colors-white-black;
+
+$colors-custom-category-title: $colors-white-mediumgrey;
+$colors-custom-category-text: $colors-white-black;
+$colors-custom-category-background: $colors-white-white;
+
+
+$colors-menu1-background: $colors-white-blue;
+$colors-menu1-background-hover: $colors-white-white;
+$colors-menu1-boarder: $colors-white-white;
+$colors-menu1-text: $colors-white-white;
+$colors-menu1-text-hover: $colors-white-lightgrey;
+$colors-menu1-current-menu-item-text: $colors-white-lightgrey;
+$colors-menu1-sub-background: $colors-white-verylightgrey;
+$colors-menu1-sub-boarder: $colors-white-lightgrey;
+$colors-menu1-sub-text: $colors-white-black;
+$colors-menu1-sub-text-hover: $colors-white-lightgrey;
+
+$colors-menu2-background: $colors-white-white;
+$colors-menu2-background-hover: $colors-white-verylightgrey;
+$colors-menu2-boarder: $colors-white-blue;
+$colors-menu2-text: $colors-white-blue;
+$colors-menu2-text-hover: $colors-white-black;
+$colors-menu2-current-menu-item-text: $colors-white-lightgrey;
+$colors-menu2-sub-background: $colors-white-linkhoverblack;
+$colors-menu2-sub-background-hover: $colors-white-linkhoverblack;
+$colors-menu2-sub-boarder: $colors-white-mediumgrey;
+$colors-menu2-sub-text: $colors-white-white;
+
+$colors-article-title-text: $colors-white-blue;
+$colors-article-footer-border-bottom: $colors-white-medium;
+$colors-article-byline-text: $colors-white-black;
+
+$colors-entry-blockquote-text: $colors-white-black;
+$colors-entry-preformatted-text: $colors-white-black;
+$colors-entry-preformatted-background: $colors-white-verylightgrey;
+
+$colors-caption-background: $colors-white-white;
+$colors-comment-even-background: $colors-white-white;
+$colors-comment-odd-background: $colors-white-white;
+
+$colors-vcard-link-text: $colors-white-black;
+$colors-vcard-avatar-boarder: $colors-white-black;
+$colors-vcard-avatar-background: $colors-white-white;
+
+$colors-comment-reply-link-background: $colors-white-white;
+$colors-comment-reply-text: $colors-white-black;
+
+$colors-respond-form-textarea-background: $colors-white-white;
+$colors-respond-form-textarea-focus-background: $colors-white-medium;
+$colors-respond-form-textarea-boarder: $colors-white-black;
+$colors-respond-form-textarea-invalid-boarder: $colors-white-pink;
+$colors-respond-form-textarea-invalid-background: $colors-white-lightpink;
+
+$colors-event-date-text: $colors-white-black;
+$colors-event-time-text: $colors-white-black;
+$colors-event-footer: $colors-white-black;
+
+$colors-sermon-icons: $colors-white-lightgrey;
+$colors-social-media-icons: $colors-white-white;
+$colors-sermon-icons-hover: $colors-white-mediumgrey;
+$colors-social-media-icons-hover: $colors-white-lightgrey;
+
+$colors-giving-button-background: $colors-white-white;
+$colors-giving-button-background-hover: $colors-white-white;
+$colors-giving-button-text:  $colors-white-blue;
+$colors-giving-button-text-hover: dimgrey;
+$colors-giving-button-border: black;
+
+

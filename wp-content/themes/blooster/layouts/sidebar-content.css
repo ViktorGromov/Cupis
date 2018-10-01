@@ -1,0 +1,26 @@
+/*
+Theme Name: blooster
+Layout: Sidebar-Content
+*/
+
+#primary{
+        float: right;
+	margin: 0 0 0 -400px;
+	width: 100%;    
+}
+#secondary{
+        width:350px;
+        display:block;
+        float:left;
+        margin:0 0 0 2em;
+        position:relative;
+}
+.site-main {
+	margin: 0 0 0 400px;
+        
+}
+.site-footer {
+	clear: both;
+	width: 100%;
+        text-align: center;
+}

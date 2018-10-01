@@ -1,0 +1,404 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Charis Church Theme (Free Edition)\n"
+"POT-Creation-Date: 2014-07-11 15:03-0600\n"
+"PO-Revision-Date: 2014-07-11 15:03-0600\n"
+"Last-Translator: StructurWorks LLC <support@structurworks.com>\n"
+"Language-Team: StructurWorks LLC <support@structurworks.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:13
+msgid "Epic 404 - Article Not Found"
+msgstr ""
+
+#: ../404.php:19
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr ""
+
+#: ../404.php:31
+msgid "This is the 404.php template."
+msgstr ""
+
+#: ../admin_options.php:128
+msgid "Church Information"
+msgstr ""
+
+#: ../admin_options.php:187
+msgid "Church Name and Address"
+msgstr ""
+
+#: ../admin_options.php:188
+msgid "Enter the address of the church"
+msgstr ""
+
+#: ../admin_options.php:195
+msgid "Church Name"
+msgstr ""
+
+#: ../admin_options.php:203
+msgid "Street Address"
+msgstr ""
+
+#: ../admin_options.php:212
+msgid "City"
+msgstr ""
+
+#: ../admin_options.php:221
+msgid "State"
+msgstr ""
+
+#: ../admin_options.php:230
+msgid "Zip Code"
+msgstr ""
+
+#: ../admin_options.php:238
+msgid "Country"
+msgstr ""
+
+#: ../admin_options.php:247
+msgid "Church Phone Number"
+msgstr ""
+
+#: ../admin_options.php:248
+msgid "Enter phone number"
+msgstr ""
+
+#: ../admin_options.php:255
+msgid "Phone Number"
+msgstr ""
+
+#: ../admin_options.php:264
+msgid "Church Service Times"
+msgstr ""
+
+#: ../admin_options.php:265
+msgid "Enter text describing weekly services (Description, Day, Time, etc.) "
+msgstr ""
+
+#: ../admin_options.php:272
+msgid "Church Services"
+msgstr ""
+
+#: ../admin_options.php:333
+msgid "Color Scheme"
+msgstr ""
+
+#: ../admin_options.php:343
+msgid "Select Color Scheme"
+msgstr ""
+
+#: ../admin_options.php:348
+msgid "Blue"
+msgstr ""
+
+#: ../admin_options.php:349
+msgid "White"
+msgstr ""
+
+#: ../admin_options.php:350
+msgid "Grey"
+msgstr ""
+
+#: ../admin_options.php:351
+msgid "Sand"
+msgstr ""
+
+#: ../announcement_loop.php:38
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> <br> "
+"%4$s."
+msgstr ""
+
+#: ../announcement_loop.php:38 ../functions.php:284 ../page.php:20
+#: ../single-stwcbp_events.php:50
+msgid "F jS, Y"
+msgstr ""
+
+#: ../announcement_loop.php:64 ../page-ministries.php:84 ../page-staff.php:94
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: ../announcement_loop.php:65 ../page-ministries.php:85 ../page-staff.php:95
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: ../announcement_loop.php:72
+msgid "Sorry, no news items are currently available for this category."
+msgstr ""
+
+#: ../archive-stwcbp_announcements.php:24 ../archive.php:28
+#: ../front-page.php:32 ../page-stwcbp_announcements.php:24
+msgid "News"
+msgstr ""
+
+#: ../archive-stwcbp_events.php:24 ../archive.php:44 ../front-page.php:48
+#: ../page-stwcbp_events.php:24
+#: ../plugins/vp_basic_church_plugin/vp_basic_church_plugin.php:51
+msgid "Events"
+msgstr ""
+
+#: ../archive.php:33 ../front-page.php:37
+msgid "See all news.."
+msgstr ""
+
+#: ../archive.php:46 ../front-page.php:50
+msgid "See all events.."
+msgstr ""
+
+#: ../comments.php:14
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:24
+msgid "<span>No</span> Responses"
+msgstr ""
+
+#: ../comments.php:24
+msgid "<span>One</span> Response"
+msgstr ""
+
+#: ../comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:63
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:63
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:71
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: ../comments.php:79
+msgid "Logged in as"
+msgstr ""
+
+#: ../comments.php:79
+msgid "Log out of this account"
+msgstr ""
+
+#: ../comments.php:79
+msgid "Log out"
+msgstr ""
+
+#: ../comments.php:79
+msgid "&raquo;"
+msgstr ""
+
+#: ../comments.php:86
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:86 ../comments.php:91
+msgid "(required)"
+msgstr ""
+
+#: ../comments.php:87
+msgid "Your Name*"
+msgstr ""
+
+#: ../comments.php:91
+msgid "Mail"
+msgstr ""
+
+#: ../comments.php:92
+msgid "Your E-Mail*"
+msgstr ""
+
+#: ../comments.php:93
+msgid "(will not be published)"
+msgstr ""
+
+#: ../comments.php:97
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:98
+msgid "Got a website?"
+msgstr ""
+
+#: ../comments.php:105
+msgid "Your Comment here..."
+msgstr ""
+
+#: ../comments.php:108
+msgid "Submit"
+msgstr ""
+
+#: ../comments.php:113
+msgid "You can use these tags"
+msgstr ""
+
+#: ../event_loop.php:105
+#, php-format
+msgid "%1$s."
+msgstr ""
+
+#: ../event_loop.php:142
+msgid "Sorry, no events are currently scheduled for this category."
+msgstr ""
+
+#: ../footer.php:31
+msgid "Join us at:  "
+msgstr ""
+
+#: ../functions.php:112
+msgid "600px by 150px"
+msgstr ""
+
+#: ../functions.php:113
+msgid "300px by 100px"
+msgstr ""
+
+#: ../functions.php:174 ../library/charis.php:204
+msgid "The Main Menu"
+msgstr ""
+
+#: ../functions.php:192 ../library/charis.php:205
+msgid "Footer Links"
+msgstr ""
+
+#: ../functions.php:236
+msgid "Side page Menu"
+msgstr ""
+
+#: ../functions.php:283
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: ../functions.php:285
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:289
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:306
+msgid "Search for:"
+msgstr ""
+
+#: ../library/admin.php:11 ../library/admin.php:21
+msgid "Logo"
+msgstr ""
+
+#: ../library/charis.php:241
+msgid "No Related Posts Yet!"
+msgstr ""
+
+#: ../library/charis.php:289
+msgid "Read"
+msgstr ""
+
+#: ../library/charis.php:289
+msgid "Read more &raquo;"
+msgstr ""
+
+#: ../library/charis.php:304
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: ../page-churchinfo.php:26
+msgid "Church Address"
+msgstr ""
+
+#: ../page-churchinfo.php:73
+msgid "Service Times"
+msgstr ""
+
+#: ../page-ministries.php:28
+msgid "Church Ministries"
+msgstr ""
+
+#: ../page-ministries.php:70 ../page-staff.php:80 ../page.php:31
+#: ../single-stwcbp_events.php:62 ../single.php:29
+msgid "Tags:"
+msgstr ""
+
+#: ../page-ministries.php:94 ../page-staff.php:104
+msgid "No Announcements Found!"
+msgstr ""
+
+#: ../page-ministries.php:98 ../page.php:46 ../single.php:46
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr ""
+
+#: ../page-ministries.php:101 ../page-staff.php:111
+msgid ""
+"This is the error message in the taxonomy-stwcbp_ministry_category.php "
+"template."
+msgstr ""
+
+#: ../page-staff.php:28
+msgid "Church Staff"
+msgstr ""
+
+#: ../page-staff.php:108
+msgid "Something is missing. Try double checking things."
+msgstr ""
+
+#: ../page.php:20
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span>."
+msgstr ""
+
+#: ../page.php:43 ../single.php:43
+msgid "Oops, Post Not Found!"
+msgstr ""
+
+#: ../page.php:49
+msgid "This is the error message in the page.php template."
+msgstr ""
+
+#: ../search.php:8
+msgid "Search Results for:"
+msgstr ""
+
+#: ../single-stwcbp_events.php:50
+#, php-format
+msgid "%4$s"
+msgstr ""
+
+#: ../single-stwcbp_events.php:76
+msgid "Event Not Found!"
+msgstr ""
+
+#: ../single-stwcbp_events.php:79
+msgid "Event is missing."
+msgstr ""
+
+#: ../single-stwcbp_events.php:82
+msgid "single-stwcbp_events.php template."
+msgstr ""
+
+#: ../single.php:19
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&amp;</span> filed "
+"under %4$s."
+msgstr ""
+
+#: ../single.php:49
+msgid "This is the error message in the single.php template."
+msgstr ""

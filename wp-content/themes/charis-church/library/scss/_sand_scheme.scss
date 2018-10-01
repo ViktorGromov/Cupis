@@ -1,0 +1,108 @@
+
+$colors-sand-black: #000000;
+
+$colors-sand-mediumsand: #D8D2AD; 
+$colors-sand-lightsand: #C6C4AE;
+$colors-sand-darksand: #AA9988;
+$colors-sand-darkgrey: #4C4B3D;
+$colors-sand-darkgreybg: lighten($colors-sand-darkgrey, 5%);;
+$colors-sand-lightgrey: #F0F0EE;
+$colors-sand-mediumgrey: #777755;
+$colors-sand-white: #FFFFFF;
+$colors-sand-lightpink: LightPink;
+$colors-sand-pink: Pink;
+$colors-sand-darkblue: #001122;
+$colors-sand-terracotta: #884411;
+
+
+$colors-sand-darkterracotta: darken($colors-sand-terracotta, 8%);
+$colors-sand-lightterracotta: #F2E279;
+$colors-sand-linkhoverterracotta: lighten($colors-sand-terracotta, 5%);
+
+/* Color Scheme sand - semantics */
+$colors-container-background: $colors-sand-lightsand;
+$colors-container-text: $colors-sand-darkgrey;
+$colors-header-background: $colors-sand-darkblue;
+$colors-header-text: $colors-sand-lightsand;
+$colors-footer-background: $colors-sand-darkblue;
+$colors-footer-text: $colors-sand-lightsand;
+
+$colors-front-page-greeting:  $colors-sand-lightsand;
+
+$colors-main-nav-background: $colors-sand-darksand;
+$colors-main-nav-text: $colors-sand-white;
+
+$colors-link-color: $colors-sand-terracotta;
+$colors-link-hover: $colors-sand-linkhoverterracotta;
+
+$colors-form-title-background: $colors-sand-lightsand;
+$colors-form-title-text: $colors-sand-lightsand;
+
+$colors-custom-category-title: $colors-sand-darksand;
+$colors-custom-category-text: $colors-sand-black;
+$colors-custom-category-background: $colors-sand-lightgrey;
+
+
+$colors-menu1-background: $colors-sand-darkblue;
+$colors-menu1-background-hover: $colors-sand-darksand;
+$colors-menu1-boarder: $colors-sand-darksand;
+$colors-menu1-text: $colors-sand-lightsand;
+$colors-menu1-text-hover: $colors-sand-darkgrey;
+$colors-menu1-current-menu-item-text: $colors-sand-mediumgrey;
+$colors-menu1-sub-background: $colors-sand-darkblue;
+$colors-menu1-sub-boarder: $colors-sand-darkblue;
+$colors-menu1-sub-text: $colors-sand-lightsand;
+$colors-menu1-sub-text-hover: $colors-sand-linkhoverterracotta;
+
+$colors-menu2-background: $colors-sand-darkgrey;
+$colors-menu2-background-hover: $colors-sand-darkgreybg;
+$colors-menu2-boarder: $colors-sand-darksand;
+$colors-menu2-text: $colors-sand-lightsand;
+$colors-menu2-text-hover: $colors-sand-lightsand;
+$colors-menu2-current-menu-item-text: $colors-sand-lightsand;
+$colors-menu2-sub-background: $colors-sand-darkgreybg;
+$colors-menu2-sub-background-hover: $colors-sand-darkgreybg;
+$colors-menu2-sub-boarder: $colors-sand-lightsand;
+$colors-menu2-sub-text: $colors-sand-lightsand;
+
+$colors-article-title-text: $colors-sand-darkgrey;
+$colors-article-footer-border-bottom: $colors-sand-darksand;
+$colors-article-byline-text: $colors-sand-darkgrey;
+
+$colors-entry-blockquote-text: $colors-sand-darksand;
+$colors-entry-preformatted-text: $colors-sand-darksand;
+$colors-entry-preformatted-background: $colors-sand-lightsand;
+
+$colors-caption-background: $colors-sand-lightsand;
+$colors-comment-even-background: $colors-sand-lightsand;
+$colors-comment-odd-background: $colors-sand-lightsand;
+
+$colors-vcard-link-text: $colors-sand-darksand;
+$colors-vcard-avatar-boarder: $colors-sand-darksand;
+$colors-vcard-avatar-background: $colors-sand-lightsand;
+
+$colors-comment-reply-link-background: $colors-sand-lightsand;
+$colors-comment-reply-text: $colors-sand-darksand;
+
+$colors-respond-form-textarea-background: $colors-sand-lightsand;
+$colors-respond-form-textarea-focus-background: $colors-sand-lightsand;
+$colors-respond-form-textarea-boarder: $colors-sand-darksand;
+$colors-respond-form-textarea-invalid-boarder: $colors-sand-pink;
+$colors-respond-form-textarea-invalid-background: $colors-sand-lightpink;
+
+$colors-event-date-text: $colors-sand-darksand;
+$colors-event-time-text: $colors-sand-darksand;
+$colors-event-footer: $colors-sand-darksand;
+
+$colors-sermon-icons:  $colors-sand-darkblue;
+$colors-social-media-icons: $colors-sand-lightsand;
+$colors-sermon-icons-hover: $colors-sand-darkgrey;
+$colors-social-media-icons-hover: $colors-sand-lightgrey;
+
+$colors-giving-button-background: $colors-sand-lightsand;
+$colors-giving-button-background-hover: $colors-sand-lightsand;
+$colors-giving-button-text:  black;
+$colors-giving-button-text-hover: dimgrey;
+$colors-giving-button-border: black;
+
+

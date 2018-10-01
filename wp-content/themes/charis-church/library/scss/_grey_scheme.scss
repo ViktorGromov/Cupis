@@ -1,0 +1,110 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Color Scheme - Grey
+
+
+******************************************************************/
+$colors-grey-black: #000000;
+$colors-grey-verydark: #111111;
+$colors-grey-dark: #424242;
+$colors-grey-medium: #DCDCDC;
+$colors-grey-light: #E9E9E9;
+$colors-grey-verylight: #E7E7E7;
+$colors-grey-white: #FFFFFF;
+$colors-grey-lightpink: LightPink;
+$colors-grey-pink: Pink;
+
+$colors-grey-teal: #1C8B78;
+$colors-grey-darkteal: darken($colors-grey-teal, 8%);
+$colors-grey-lightteal: lighten($colors-grey-teal, 10%);
+$colors-grey-linkhoverteal: lighten($colors-grey-teal, 20%);
+
+/* Color Scheme grey - semantics */
+$colors-container-background: $colors-grey-medium;
+$colors-container-text: $colors-grey-verydark;
+$colors-header-background: $colors-grey-dark;
+$colors-header-text: $colors-grey-verylight;
+$colors-footer-background: $colors-grey-dark;
+$colors-footer-text: $colors-grey-light;
+
+$colors-front-page-greeting:  $colors-grey-light;
+
+$colors-main-nav-background: $colors-grey-verydark;
+$colors-main-nav-text: $colors-grey-white;
+
+$colors-link-color: $colors-grey-teal;
+$colors-link-hover: $colors-grey-linkhoverteal;
+
+$colors-form-title-background: $colors-grey-light;
+$colors-form-title-text: $colors-grey-medium;
+
+$colors-custom-category-title: $colors-grey-medium;
+$colors-custom-category-text: $colors-grey-darkteal;
+$colors-custom-category-background: white;
+
+
+$colors-menu1-background: $colors-grey-verydark;
+$colors-menu1-background-hover: $colors-grey-dark;
+$colors-menu1-boarder: $colors-grey-medium;
+$colors-menu1-text: $colors-grey-lightteal;
+$colors-menu1-text-hover: $colors-grey-linkhoverteal;
+$colors-menu1-current-menu-item-text: $colors-grey-darkteal;
+$colors-menu1-sub-background: $colors-grey-teal;
+$colors-menu1-sub-boarder: $colors-grey-dark;
+$colors-menu1-sub-text: $colors-grey-light;
+$colors-menu1-sub-text-hover: $colors-grey-linkhoverteal;
+
+$colors-menu2-background: $colors-grey-teal;
+$colors-menu2-background-hover: $colors-grey-teal;
+$colors-menu2-boarder: $colors-grey-verydark;
+$colors-menu2-text: $colors-grey-light;
+$colors-menu2-text-hover: $colors-grey-linkhoverteal;
+$colors-menu2-current-menu-item-text: $colors-grey-light;
+$colors-menu2-sub-background: $colors-grey-teal;
+$colors-menu2-sub-background-hover: $colors-grey-teal;
+$colors-menu2-sub-boarder: $colors-grey-dark;
+$colors-menu2-sub-text: $colors-grey-light;
+
+$colors-article-title-text: $colors-grey-teal;
+$colors-article-footer-border-bottom: $colors-grey-dark;
+$colors-article-byline-text: $colors-grey-dark;
+
+$colors-entry-blockquote-text: $colors-grey-verydark;
+$colors-entry-preformatted-text: $colors-grey-verydark;
+$colors-entry-preformatted-background: $colors-grey-light;
+
+$colors-caption-background: $colors-grey-verylight;
+$colors-comment-even-background: $colors-grey-light;
+$colors-comment-odd-background: $colors-grey-verylight;
+
+$colors-vcard-link-text: $colors-grey-verydark;
+$colors-vcard-avatar-boarder: $colors-grey-dark;
+$colors-vcard-avatar-background: $colors-grey-verylight;
+
+$colors-comment-reply-link-background: $colors-grey-verylight;
+$colors-comment-reply-text: $colors-grey-verydark;
+
+$colors-respond-form-textarea-background: $colors-grey-light;
+$colors-respond-form-textarea-focus-background: $colors-grey-verylight;
+$colors-respond-form-textarea-boarder: $colors-grey-dark;
+$colors-respond-form-textarea-invalid-boarder: $colors-grey-pink;
+$colors-respond-form-textarea-invalid-background: $colors-grey-lightpink;
+
+$colors-event-date-text: $colors-grey-dark;
+$colors-event-time-text: $colors-grey-dark;
+$colors-event-footer: $colors-grey-dark;
+
+$colors-sermon-icons: $colors-grey-dark;
+$colors-social-media-icons: $colors-grey-medium;
+$colors-sermon-icons-hover: $colors-grey-black;
+$colors-social-media-icons-hover: $colors-grey-verylight;
+
+
+$colors-giving-button-background: $colors-grey-medium;
+$colors-giving-button-background-hover: $colors-grey-medium;
+$colors-giving-button-text:  $colors-grey-black;
+$colors-giving-button-text-hover: dimgrey;
+$colors-giving-button-border: $colors-grey-black;
+

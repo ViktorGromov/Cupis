@@ -1,0 +1,630 @@
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: IE Stylesheet
+
+So instead of using the respond.js file to add media query support
+to IE, we're going to use SASS to create an easily readable css file.
+Here, we import all the styles the standard stylesheet gets, only
+without the media queries. No need to worry about editing anything!
+
+******************************************************************/
+/*
+Remember, all the BASE styles are called already since IE can
+read those. Below, we need to import only the stuff IE can't 
+understand (what's inside the media queries). We also need to
+import the mixins file so SASS can understand the variables.
+*/
+/* import mixins */
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Mixins & Constants Stylesheet
+
+
+
+******************************************************************/
+/*********************
+CLEARFIXIN'
+*********************/
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+/*********************
+TOOLS
+*********************/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.image-replacement {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/*********************
+COLORS
+Need help w/ choosing your colors? Try this site out:
+http://0to255.com/
+*********************/
+/* Color Palette 1 */
+/*
+Here's a great tutorial on how to
+use color variables properly:
+http://sachagreif.com/sass-color-variables/
+*/
+/*********************
+TYPOGRAPHY
+*********************/
+/* 	To embed your own fonts, use this syntax
+	and place your fonts inside the
+	library/fonts folder. For more information
+	on embedding fonts, go to:
+	http://www.fontsquirrel.com/
+	Be sure to remove the comment brackets.
+*/
+@font-face {
+  font-family: 'Cabin';
+  src: url("../library/fonts/Cabin/cabin-regular-webfont.eot");
+  src: url("../library/fonts/Cabin/cabin-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../library/fonts/Cabin/cabin-regular-webfont.woff") format("woff"), url("../library/fonts/Cabin/cabin-regular-webfont.ttf") format("truetype"), url("../library/fonts/Cabin/cabin-regular-webfont.svg#Cabin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cabin-bold';
+  src: url("../library/fonts/Cabin/cabin-bold-webfont.eot");
+  src: url("../library/fonts/Cabin/cabin-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../library/fonts/Cabin/cabin-bold-webfont.woff") format("woff"), url("../library/fonts/Cabin/cabin-bold-webfont.ttf") format("truetype"), url("../library/fonts/Cabin/cabin-bold-webfont.svg#Cabin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+use the best ampersand
+http://simplebits.com/notebook/2008/08/14/ampersands-2/
+*/
+span.amp {
+  font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
+  font-style: italic;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.alert-help, .alert-info, .alert-error, .alert-success {
+  margin: 10px;
+  padding: 5px 18px;
+  border: 1px solid;
+}
+
+.alert-help {
+  border-color: #e8dc59;
+  background: #ebe16f;
+}
+
+.alert-info {
+  border-color: #bfe4f4;
+  background: #d5edf8;
+}
+
+.alert-error {
+  border-color: #f8cdce;
+  background: #fbe3e4;
+}
+
+.alert-success {
+  border-color: #deeaae;
+  background: #e6efc2;
+}
+
+/*********************
+TRANSITION
+*********************/
+/*
+You'll need to be using Sass 3.2+ for these to work.
+Thanks to @anthonyshort for the inspiration on these.
+USAGE: @include transition(all 0.2s ease-in-out);
+*/
+/*********************
+CSS3 GRADIENTS
+Be careful with these since they can
+really slow down your CSS. Don't overdo it.
+*********************/
+/* @include css-gradient(#dfdfdf,#f8f8f8); */
+/*********************
+BOX SIZING
+*********************/
+/* @include box-sizing(border-box); */
+/* NOTE: value of "padding-box" is only supported in Gecko. So
+probably best not to use it. I mean, were you going to anyway? */
+/*********************
+BUTTONS
+*********************/
+.button, .button:visited {
+  font-family: "Cabin", Helvetica, Arial, sans-serif;
+  border: 1px solid black;
+  border-top-color: black;
+  border-left-color: black;
+  padding: 4px 12px;
+  color: white;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  margin-bottom: 20px;
+  line-height: 21px;
+  border-radius: 4px;
+  background-color: black;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
+  background-image: -webkit-linear-gradient(top, black, black);
+  background-image: -moz-linear-gradient(top, black, black);
+  background-image: -o-linear-gradient(top, black, black);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+}
+.button:hover, .button:focus, .button:visited:hover, .button:visited:focus {
+  color: white;
+  border: 1px solid black;
+  border-top-color: black;
+  border-left-color: black;
+  background-color: black;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
+  background-image: -webkit-linear-gradient(top, black, black);
+  background-image: -moz-linear-gradient(top, black, black);
+  background-image: -o-linear-gradient(top, black, black);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+}
+.button:active, .button:visited:active {
+  background-color: black;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
+  background-image: -webkit-linear-gradient(top, black, black);
+  background-image: -moz-linear-gradient(top, black, black);
+  background-image: -o-linear-gradient(top, black, black);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+}
+
+.blue-button, .blue-button:visited {
+  border-color: #0a7fa3;
+  text-shadow: 0 1px 1px #0a7fa3;
+  background-color: #0c91bb;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0da4d3), to(#0c91bb));
+  background-image: -webkit-linear-gradient(top, #0da4d3, #0c91bb);
+  background-image: -moz-linear-gradient(top, #0da4d3, #0c91bb);
+  background-image: -o-linear-gradient(top, #0da4d3, #0c91bb);
+  background-image: linear-gradient(to bottom, #0da4d3, #0c91bb);
+  box-shadow: inset 0 0 3px #3ec8f3;
+}
+.blue-button:hover, .blue-button:focus, .blue-button:visited:hover, .blue-button:visited:focus {
+  border-color: #096c8b;
+  background-color: #0a7fa3;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0c95c0), to(#0a7fa3));
+  background-image: -webkit-linear-gradient(top, #0c95c0, #0a7fa3);
+  background-image: -moz-linear-gradient(top, #0c95c0, #0a7fa3);
+  background-image: -o-linear-gradient(top, #0c95c0, #0a7fa3);
+  background-image: linear-gradient(to bottom, #0c95c0, #0a7fa3);
+}
+.blue-button:active, .blue-button:visited:active {
+  background-color: #0da4d3;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0c91bb), to(#0da4d3));
+  background-image: -webkit-linear-gradient(top, #0c91bb, #0da4d3);
+  background-image: -moz-linear-gradient(top, #0c91bb, #0da4d3);
+  background-image: -o-linear-gradient(top, #0c91bb, #0da4d3);
+  background-image: linear-gradient(to bottom, #0c91bb, #0da4d3);
+}
+
+/******************************************************************
+Stylesheet: Grid Stylesheet
+
+This file is called at the top the style.scss stylesheet.
+The grid below is a combination of the 1140 grid and Twitter Boostrap. 
+
+******************************************************************/
+.onecol {
+  width: 5.801104972%;
+}
+
+/* 4.85%;  } /* grid_1  */
+.twocol {
+  width: 14.364640883%;
+}
+
+/* 13.45%; } /* grid_2  */
+.threecol {
+  width: 22.928176794%;
+}
+
+/* 22.05%; } /* grid_3  */
+.fourcol {
+  width: 31.491712705%;
+}
+
+/* 30.75%; } /* grid_4  */
+.fivecol {
+  width: 40.055248616%;
+}
+
+/* 39.45%; } /* grid_5  */
+.sixcol {
+  width: 48.618784527%;
+}
+
+/* 48%;    } /* grid_6  */
+.sevencol {
+  width: 57.182320438000005%;
+}
+
+/* 56.75%; } /* grid_7  */
+.eightcol {
+  width: 65.74585634900001%;
+}
+
+/* 65.4%;  } /* grid_8  */
+.ninecol {
+  width: 74.30939226%;
+}
+
+/* 74.05%; } /* grid_9  */
+.ninepluscol {
+  width: 80%;
+}
+
+/* 74.05%; } /* grid_9  */
+.tencol {
+  width: 82.87292817100001%;
+}
+
+/* 82.7%;  } /* grid_10 */
+.elevencol {
+  width: 91.436464082%;
+}
+
+/* 91.35%; } /* grid_11 */
+.twelvecol {
+  width: 99.999999993%;
+}
+
+/* 100%;   } /* grid_12 */
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol slider {
+  position: relative;
+  float: left;
+  margin-left: 2.762430939%;
+}
+
+.first {
+  margin-left: 0;
+}
+
+.last {
+  float: right;
+}
+
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: 481px and Up Stylesheet
+
+This stylesheet is loaded for larger devices. It's set to 
+481px because at 480px it would load on a landscaped iPhone.
+This isn't ideal because then you would be loading all those
+extra styles on that same mobile connection. 
+
+A word of warning. This size COULD be a larger mobile device,
+so you still want to keep it pretty light and simply expand
+upon your base.scss styles.
+
+******************************************************************/
+/*********************
+NAVIGATION STYLES
+*********************/
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+/* entry content */
+.entry-content {
+  /* at this larger size, we can start to align images */
+}
+.entry-content .alignleft, .entry-content img.alignleft {
+  margin-right: 1.5em;
+  display: inline;
+  float: left;
+}
+.entry-content .alignright, .entry-content img.alignright {
+  margin-left: 1.5em;
+  display: inline;
+  float: right;
+}
+.entry-content .aligncenter, .entry-content img.aligncenter {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  clear: both;
+}
+
+/* end .entry-content */
+/*********************
+Event / Date Icon Styles
+*********************/
+.event-icon {
+  margin-right: 10px;
+}
+
+.event-timetitle {
+  margin-left: 12px;
+}
+
+/*********************
+HEADER STYLES
+*********************/
+/*********************
+FOOTER STYLES
+*********************/
+/*
+check your menus here. do they look good?
+do they need tweaking?
+*/
+/* end .footer-links */
+.footer-left-main {
+  position: relative;
+  float: left;
+  margin-left: 3%;
+  width: 20%;
+}
+
+.footer-center-main {
+  position: relative;
+  float: left;
+  margin-left: 3%;
+  width: 40%;
+}
+
+.footer-right-main {
+  position: relative;
+  display: block;
+  height: 100%;
+  float: left;
+  margin-left: 3%;
+  width: 28%;
+}
+
+.footer-giving-link {
+  position: absolute;
+  top: 20px;
+}
+
+.footer-copyright {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+/******************************************************************
+
+Stylesheet: Tablet & Small Desktop Stylesheet
+
+
+******************************************************************/
+/*********************
+GENERAL STYLES
+*********************/
+body {
+  max-width: 1024px;
+}
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+.wrap {
+  /* max-width: 1140px; */
+  max-width: 1024px;
+}
+
+/*********************
+NAVIGATION STYLES
+*********************/
+/*********************
+SIDEBARS & ASIDES
+*********************/
+.widget ul li {
+  /* deep nesting */
+}
+
+/* links widget */
+/* meta widget */
+/* pages widget */
+/* recent-posts widget */
+/* archives widget */
+/* tag-cloud widget */
+/* calendar widget */
+/* category widget */
+/* recent-comments widget */
+/* search widget */
+/* text widget */
+/*********************
+HEADER STYLES
+*********************/
+.header-nav-area {
+  padding-top: 0px;
+  padding-left: 10px;
+  font-size: 1.3em;
+}
+
+/*********************
+FOOTER STYLES
+*********************/
+/*
+you'll probably need to do quite a bit
+of overriding here if you styled them for
+mobile. Make sure to double check these!
+*/
+.footer-links ul li {
+  /*
+  be careful with the depth of your menus.
+  it's very rare to have multi-depth menus in
+  the footer.
+  */
+}
+
+/* end .footer-links */
+.giving-button {
+  display: block;
+  width: 7em;
+  height: 2em;
+  line-height: 30px;
+  moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.footer-left-main {
+  position: relative;
+  float: left;
+  margin-left: 3%;
+  width: 23%;
+}
+
+.footer-center-main {
+  position: relative;
+  float: left;
+  margin-left: 3%;
+  width: 47%;
+}
+
+.footer-right-main {
+  position: relative;
+  display: block;
+  height: 100%;
+  float: left;
+  margin-left: 3%;
+  width: 18%;
+}
+
+.footer-giving-link {
+  position: absolute;
+  top: 20px;
+}
+
+.footer-copyright {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: Desktop Stylsheet
+
+This is the desktop size. It's larger than an iPad so it will only
+be seen on the Desktop. 
+
+******************************************************************/
+/******************************************************************
+   Header
+******************************************************************/
+/******************************************************************
+   Footer
+******************************************************************/
+.giving-button {
+  display: block;
+  width: 9em;
+  height: 2em;
+  line-height: 30px;
+  moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.footer {
+  height: 10em;
+}
+
+.footer-left-main {
+  position: relative;
+  float: left;
+  margin-left: 3%;
+  width: 23%;
+}
+
+.footer-center-main {
+  position: relative;
+  float: left;
+  margin-left: 3%;
+  width: 47%;
+}
+
+.footer-right-main {
+  position: relative;
+  display: block;
+  height: 100%;
+  float: left;
+  margin-left: 3%;
+  width: 18%;
+}
+
+.footer-giving-link {
+  position: absolute;
+  top: 20px;
+}
+
+.footer-copyright {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+/* 
+you can call the larger styles if you want, but there's really no need 
+*/
+/******************************************************************
+ADDITIONAL IE FIXES
+These fixes are now ONLY seen by IE, so you don't have to worry
+about using prefixes, although it's best practice. For more info
+on using Modernizr classes, check out this link:
+http://www.modernizr.com/docs/
+******************************************************************/
+/*
+For example, you can use something like:
+
+.no-textshadow .class { ... }
+
+You can also target specific versions by using the classes applied to
+the html element. These can sometimes change, so take a look inside the
+header.php file to see what they are:
+
+
+.lt-ie8 .class { ... }
+
+*/

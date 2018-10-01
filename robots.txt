@@ -1,0 +1,33 @@
+﻿User-agent: Yandex
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/themes
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /comments
+Disallow: */trackback
+Disallow: */embed
+Disallow: */feed
+Disallow: /cgi-bin
+Disallow: *?s=
+
+
+Host: сupis2.ru
+
+User-agent: *
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/themes
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /comments
+Disallow: */trackback
+Disallow: */embed
+Disallow: */feed
+Disallow: /cgi-bin
+Disallow: *?s=
+
+
+Sitemap: http://cupis2.ru//sitemap.xml

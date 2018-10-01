@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Water Lily v10.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-06-23 21:03+0200\n"
+"Last-Translator: Игорь <dybabiz@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.2\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ water-lily
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ошибка 404. Страница не найдена"
+
+# @ water-lily
+#: 404.php:18
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "По данному адресу ничего не найдено. Воспользуйтесь поиском."
+
+# @ water-lily
+#: archive.php:25
+#, php-format
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+# @ water-lily
+#: archive.php:28
+#, php-format
+msgid "Day: %s"
+msgstr "День: %s"
+
+# @ water-lily
+#: archive.php:31
+#, php-format
+msgid "Month: %s"
+msgstr "Месяц: %s"
+
+# @ water-lily
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+# @ water-lily
+#: archive.php:34
+#, php-format
+msgid "Year: %s"
+msgstr "Год: %s"
+
+# @ water-lily
+#: archive.php:34
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+# @ water-lily
+#: archive.php:37
+msgid "Asides"
+msgstr ""
+
+# @ water-lily
+#: archive.php:40
+msgid "Galleries"
+msgstr ""
+
+# @ water-lily
+#: archive.php:43
+msgid "Images"
+msgstr ""
+
+# @ water-lily
+#: archive.php:46
+msgid "Videos"
+msgstr ""
+
+# @ water-lily
+#: archive.php:49
+msgid "Quotes"
+msgstr ""
+
+# @ water-lily
+#: archive.php:52
+msgid "Links"
+msgstr ""
+
+# @ water-lily
+#: archive.php:55
+msgid "Statuses"
+msgstr ""
+
+# @ water-lily
+#: archive.php:58
+msgid "Audios"
+msgstr ""
+
+# @ water-lily
+#: archive.php:61
+msgid "Chats"
+msgstr ""
+
+# @ water-lily
+#: archive.php:64
+msgid "Archives"
+msgstr "Архивы"
+
+# @ water-lily
+#: comments.php:30
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Один комментарий на &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментарии на &ldquo;%2$s&rdquo;"
+
+# @ water-lily
+#: comments.php:37 comments.php:54
+msgid "Comment navigation"
+msgstr "Комментарий навигация"
+
+# @ water-lily
+#: comments.php:38 comments.php:55
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+# @ water-lily
+#: comments.php:39 comments.php:56
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+# @ water-lily
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+# @ water-lily
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+# @ water-lily
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы написать первую запись? <a href=\"%1$s\">Начать</a>."
+
+# @ water-lily
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "К сожалению, по вашему запросу ничего не найдено."
+
+# @ water-lily
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Кажется, мы не можем найти то, что вы ищете. Возможно, поиск может помочь."
+
+# @ water-lily
+#: content-page.php:18 content-single.php:24
+msgid "Pages:"
+msgstr "Страницы:"
+
+# @ water-lily
+#: content-page.php:23 content-single.php:62
+msgid "Edit"
+msgstr "Редактировать"
+
+# @ water-lily
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:32 content-single.php:35
+msgid ", "
+msgstr ""
+
+# @ water-lily
+#: content-single.php:40
+#, php-format
+msgid "Tags: %2$s."
+msgstr "Метки: %2$s."
+
+# @ water-lily
+#: content-single.php:48
+#, php-format
+msgid "Posted in: %1$s. Tags: %2$s."
+msgstr "Категория: %1$s. Метки: %2$s."
+
+# @ water-lily
+#: content-single.php:50
+#, php-format
+msgid "Posted in: %1$s."
+msgstr "Категория %1$s."
+
+# @ water-lily
+#: footer.php:14
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+# @ water-lily
+#: footer.php:16
+#, php-format
+msgid "Theme by %1$s"
+msgstr ""
+
+# @ water-lily
+#: functions.php:42
+msgid "Primary Menu"
+msgstr "Главное меню"
+
+# @ water-lily
+#: functions.php:72
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+# @ water-lily
+#: functions.php:117
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr ""
+
+# @ water-lily
+#: functions.php:128
+msgctxt "Oswald font: on or off"
+msgid "on"
+msgstr ""
+
+# @ water-lily
+#: functions.php:182
+msgid "more"
+msgstr "далее"
+
+# @ water-lily
+#: header.php:41
+msgid "Menu"
+msgstr "Меню"
+
+# @ water-lily
+#: header.php:42
+msgid "Skip to content"
+msgstr "Наверх"
+
+# @ water-lily
+#: inc/customizer.php:18 inc/customizer.php:20
+msgid "Logo"
+msgstr "Логотип"
+
+# @ water-lily
+#: inc/customizer.php:25
+msgid "Upload logo to replace the default site name ( 220px wide max )"
+msgstr "Загрузите логотип, это заметит тексловый лого ( 220px макс. ширина )"
+
+# @ water-lily
+#: inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+# @ water-lily
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Записи навигация"
+
+# @ water-lily
+#: inc/template-tags.php:27 inc/template-tags.php:59
+msgid "Previous"
+msgstr "Назад"
+
+# @ water-lily
+#: inc/template-tags.php:31 inc/template-tags.php:60
+msgid "Next"
+msgstr "Вперед"
+
+# @ water-lily
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Запись навигация"
+
+# @ water-lily
+#: inc/template-tags.php:86
+#, php-format
+msgid "<span class=\"posted-on\">%1$s</span>"
+msgstr ""
+
+# @ water-lily
+#: search.php:12
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результат поиска для: %s"
